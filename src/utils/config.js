@@ -71,7 +71,7 @@ const config = {
     timeout: 25000,
     // 背景音乐
     music: {
-      show: true,
+      show: false,
       src: require('../assets/media/shiji.mp3')
     },
     // 参与规则

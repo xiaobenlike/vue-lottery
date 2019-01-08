@@ -421,7 +421,7 @@ export default {
         .lottery-roll{
           display: flex;
           .roll-item{
-            width: 20%;
+            width: 50%;
             font-size: 3.6vh;
             display: flex;
             justify-content: center;
