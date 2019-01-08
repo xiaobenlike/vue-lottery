@@ -54,8 +54,10 @@
         </el-form>
       </div>
       <div class="lottery-prize">
+      <!--
         <img src="../assets/images/kindle.png">
         <p>Kindle 6英寸 电纸书(wifi)</p>
+      -->
       </div>
       <div v-if="rule.show" class="lottery-rule">
         <img :src="rule.img">
