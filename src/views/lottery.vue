@@ -11,9 +11,7 @@
             <li class="lottery-item" v-for="(list, index) in rollIdArr" :key="index">
               <div class="lottery-roll">
                 <div class="roll-item"><img :src="list.HeadImg"></div>
-                <div class="roll-item"><span>{{list.Num}}</span></div>
                 <div class="roll-item"><span>{{list.Name}}</span></div>
-                <div class="roll-item"><span>{{list.Company}}</span></div>
               </div>
             </li>
           </ul>

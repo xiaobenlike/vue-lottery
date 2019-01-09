@@ -17,12 +17,13 @@ function getQueryString (str, name) {
 const userData = []
 for (let i = 1; i < 100; i++) {
   userData.push(Mock.mock({
-    Company: '@city(true)', // 公司名
+    // Company: '@city(true)', // 公司名
     CompleteID: '@increment', // ID
-    HeadImg: `@image(200x200, @color, #FFF, mock-${i})`, // 微信头像
-    Name: '@cname', // 姓名
-    Num: `M${i}`, // 工号
-    OpenID: '@increment', // 微信ID
+    // HeadImg: `@image(200x200, @color, #FFF, mock-${i})`, // 微信头像
+    HeadImg: '/static/favicon.ico',
+    Name: `${i}`, // 姓名 '@cname'
+    // Num: `M${i}`, // 工号
+    // OpenID: '@increment', // 微信ID
     Award: '0' // 奖项，'0'表示未中奖
   }))
 }
